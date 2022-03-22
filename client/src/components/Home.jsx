@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import Category from './Category'
+
+
+import Slider from "./Slider";
 
 const Home = () => {
   return (
     <Container>
-      Home
+      <Slider />
+      <Category/>
     </Container>
   )
 }
@@ -15,6 +20,9 @@ const Container = styled.main`
   min-height: calc(100vh - 70px);
   padding: 0 calc(3.5vw + 5px);
   position: relative;
+  overflow-x: hidden;
+
+  padding-top: 20px;
 
   &:before {
     background: url('/media/images/home-background.png') center center / cover no-repeat fixed;
