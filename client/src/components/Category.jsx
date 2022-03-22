@@ -27,7 +27,7 @@ const Category = () => {
 export default Category
 
 const Container = styled.div`
-  margin-top: 50px;
+  margin: 50px 0px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   grid-gap: 25px;

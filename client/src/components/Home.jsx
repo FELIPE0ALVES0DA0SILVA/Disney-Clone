@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Category from './Category'
+import Movie from './Movie'
 
 
 import Slider from "./Slider";
@@ -10,6 +11,7 @@ const Home = () => {
     <Container>
       <Slider />
       <Category/>
+      <Movie/>
     </Container>
   )
 }
